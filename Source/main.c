@@ -15,5 +15,7 @@ int main()
     push(&a, 8);
     push(&a, 15);
     display(a);
+    pop(&a);
+    display(a);
     return 0;
 }
